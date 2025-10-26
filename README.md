@@ -39,8 +39,10 @@ Execute: Run the compiled class file:
 
 java BillGenerator
 
+🖥️ Example Usage
 
-
+The program will guide you through the purchase process, as shown in this simulated session:
+<img width="442" height="772" alt="image" src="https://github.com/user-attachments/assets/3952eb79-6904-47d3-95e9-cf73415a8486" />
 
 🚀 Future Enhancements
 
