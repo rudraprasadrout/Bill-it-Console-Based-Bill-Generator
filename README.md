@@ -1,4 +1,4 @@
-Bill-it: Console-Based Bill Generator
+#### Bill-it: Console-Based Bill Generator ####
 
 🧾 Project Overview
 
@@ -40,52 +40,6 @@ Execute: Run the compiled class file:
 java BillGenerator
 
 
-🖥️ Example Usage
-
-The program will guide you through the purchase process, as shown in this simulated session:
-
-====================================================
-          Bill-it your personal BILL GENERATOR      
-====================================================
-Welcome! Please select items from the menu below.
-----------------------------------------------------
-Available Items:
-----------------------------------------------------
- 1. Apples    | $2.50
- 2. Milk      | $3.20
- 3. Bread     | $1.50
- 4. Eggs      | $0.50
- 5. Rice      | $4.00
- 6. Sugar     | $2.00
- 7. Butter    | $5.00
- 8. Juice     | $3.80
-----------------------------------------------------
-Enter number of different items you want to purchase: 2
-
---- Selecting Item 1 of 2 ---
-Select item 1 (Enter item number 1-8): 2
-Enter quantity for Milk: 1
-
---- Selecting Item 2 of 2 ---
-Select item 2 (Enter item number 1-8): 7
-Enter quantity for Butter: 2
-
-
-====================================================
-              CUSTOMER BILL RECEIPT                 
-====================================================
-Item            Price      Qty        Total     
-----------------------------------------------------
-Milk            3.20       1          3.20      
-Butter          5.00       2          10.00     
-----------------------------------------------------
-Subtotal                  : $13.20
-Tax (8.00%)               : $1.06
-----------------------------------------------------
-Grand Total               : $14.26
-====================================================
-Thank you for shopping with us!
-====================================================
 
 
 🚀 Future Enhancements
@@ -95,5 +49,6 @@ Potential improvements for this project include:
 Dynamic Inventory: Move item data from hardcoded arrays to an external file or a simple database (like SQLite or Firestore) for persistent and dynamic updates.
 
 Refactoring: Convert the single main method into multiple classes (e.g., Inventory, Calculator) to implement stronger Object-Oriented Programming (OOP) principles.
+
 
 Discounts: Implement conditional discount logic (e.g., "Buy One Get One Free" or percentage-based coupons).
