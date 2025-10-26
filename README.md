@@ -1,4 +1,4 @@
-#### Bill-it: Console-Based Bill Generator ####
+# Bill-it: Console-Based Bill Generator #
 
 🧾 Project Overview
 
@@ -52,3 +52,4 @@ Refactoring: Convert the single main method into multiple classes (e.g., Invento
 
 
 Discounts: Implement conditional discount logic (e.g., "Buy One Get One Free" or percentage-based coupons).
+
