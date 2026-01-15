@@ -1,57 +1,61 @@
-# Bill-it: Console-Based Bill Generator #
+# 🧾 Bill-it: Console-Based Bill Generator
 
-🧾 Project Overview
+[![Language](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Bill-it is a simple, command-line utility built in Java designed to simulate a retail point-of-sale (POS) system for generating accurate, itemized customer receipts. It demonstrates fundamental Java programming concepts including array manipulation, formatted output, iterative control flow, and robust user input validation using the java.util.Scanner class.
+### 📖 Project Overview
+**Bill-it** is a lightweight, command-line utility built in Java designed to simulate a retail point-of-sale (POS) system. It generates accurate, itemized customer receipts while demonstrating fundamental Java programming concepts such as array manipulation, formatted output, and robust input validation.
 
-✨ Features
+---
 
-Predefined Inventory: Uses hardcoded arrays for a simple, fixed inventory of items and prices.
+### ✨ Features
+* **Predefined Inventory:** Uses hardcoded arrays for a simple, fixed inventory of items and prices.
+* **Clean UI:** Displays the full product menu only once at the start for a streamlined user experience.
+* **Interactive Selection:** Allows users to specify the number of items and select products by index.
+* **Robust Input Validation:** Utilizes `try-catch` blocks and conditional loops to ensure all inputs (choice, quantity, total items) are valid positive integers.
+* **Automatic Calculation:** Handles line totals, subtotal, 8% sales tax, and the final grand total.
+* **Formatted Receipt:** Generates a professional, aligned, itemized receipt using `System.out.printf()`.
 
-Single Menu Display: Displays the full product menu only once at the start for a clean user experience.
+---
 
-Interactive Selection: Allows the user to specify the number of items and then select each item by number.
+### 🛠️ Technologies Used
+* **Language:** Java (JDK 8+)
+* **Environment:** Console/Terminal
+* **Core Classes:** `java.util.Scanner`
 
-Robust Input Validation: Utilizes try-catch and conditional loops to ensure user inputs for item choice, quantity, and number of items are valid integers and positive values, preventing runtime exceptions.
+---
 
-Automatic Calculation: Calculates line totals, subtotal, $8.00\%$ sales tax, and the final grand total.
+### ▶️ How to Run Locally
+Ensure you have the **Java Development Kit (JDK)** installed on your machine.
 
-Formatted Receipt: Prints a professional, aligned, itemized receipt using System.out.printf().
+1.  **Save the Code:** Save the provided Java code into a file named `BillGenerator.java`.
+2.  **Compile:** Open your terminal, navigate to the directory, and run:
+    ```bash
+    javac BillGenerator.java
+    ```
+3.  **Execute:** Run the compiled class:
+    ```bash
+    java BillGenerator
+    ```
 
-🛠️ Technologies Used
+---
 
-Language: Java
+### 🖥️ Example Usage
+The program guides you through a purchase session like this:
+1. View the Item Menu.
+2. Input the number of unique items to buy.
+3. Input the Item Number and Quantity for each.
+4. Receive a formatted, itemized bill.
 
-Environment: Console/Terminal
-
-▶️ How to Run Locally
-
-To compile and run this application on your local machine, ensure you have the Java Development Kit (JDK) installed.
-
-Save the Code: Save the provided Java code into a file named BillGenerator.java.
-
-Compile: Open your terminal or command prompt, navigate to the directory where you saved the file, and compile the code:
-
-javac BillGenerator.java
-
-
-Execute: Run the compiled class file:
-
-java BillGenerator
-
-🖥️ Example Usage
-
-The program will guide you through the purchase process, as shown in this simulated session:
-<img width="442" height="772" alt="image" src="https://github.com/user-attachments/assets/3952eb79-6904-47d3-95e9-cf73415a8486" />
-
-🚀 Future Enhancements
-
-Potential improvements for this project include:
-
-Dynamic Inventory: Move item data from hardcoded arrays to an external file or a simple database (like SQLite or Firestore) for persistent and dynamic updates.
-
-Refactoring: Convert the single main method into multiple classes (e.g., Inventory, Calculator) to implement stronger Object-Oriented Programming (OOP) principles.
+    <img width="442" height="772" alt="image" src="https://github.com/user-attachments/assets/66b54cb6-0869-4e0c-bbb8-7f00e4adc955" />
 
 
-Discounts: Implement conditional discount logic (e.g., "Buy One Get One Free" or percentage-based coupons).
+---
 
+### 🚀 Future Enhancements
+* **Dynamic Inventory:** Move item data from arrays to external files (JSON/CSV) or a database like SQLite for persistence.
+* **OOP Refactoring:** Convert the single main method into modular classes (e.g., `Inventory`, `Calculator`, `Receipt`) for better design.
+* **Discount Logic:** Implement "Buy One Get One" or percentage-based coupon systems.
+
+---
+*Developed as part of my Java Programming Portfolio.*
